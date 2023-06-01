@@ -7,7 +7,7 @@ import dotenv from "dotenv";
 import { fileURLToPath } from "url";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
-dotenv.config({ path: resolve(__dirname, "../../../.env") });
+dotenv.config({ path: resolve(__dirname, "../../../client/.env") });
 
 const ACCESS_TOKEN_SECRET = process.env.ACCESS_TOKEN_SECRET;
 const REFRESH_TOKEN_SECRET = process.env.REFRESH_TOKEN_SECRET;

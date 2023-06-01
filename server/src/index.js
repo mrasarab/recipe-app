@@ -10,7 +10,7 @@ import dotenv from "dotenv";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-dotenv.config({ path: resolve(__dirname, "../../.env") });
+dotenv.config({ path: resolve(__dirname, "../../../client/.env") });
 
 const url = process.env.MONGODB_URL;
 const app = express();
